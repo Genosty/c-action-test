@@ -12,5 +12,5 @@
       say-hello:
           runs-on: ubuntu-latest
           steps:
-              - run: echo "Hellom GitHub Actions!"
+              - run: echo "Hello GitHub Actions!"
               
