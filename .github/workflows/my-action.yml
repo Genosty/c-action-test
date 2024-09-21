@@ -26,7 +26,7 @@
                 
                 # Install necessery packages
                 - name: Install depencdencies
-                  run: sudo apt isntall -y build essential python3
+                  run: sudo apt install -y build essential python3
                 
                 # See where we are in the VM
                 - run: pwd
