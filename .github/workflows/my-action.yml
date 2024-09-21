@@ -15,7 +15,8 @@
                 - run: echo "Hello GitHub Actions!" #this step could also be named with -name. see code below
         
         # job to build and test our C code
-        needs:  [say-hello]
+        build-and-test:
+            needs:  [say-hello]
             runs-on: ubuntu-latest
             steps:
 
